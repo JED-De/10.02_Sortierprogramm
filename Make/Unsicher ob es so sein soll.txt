@@ -1,0 +1,11 @@
+testlauf sieht anders aus als erwartet. 
+(cl /EHsc /c main.cpp... zeigt anders als erwartet noch /nologo an.)
+( ohne nologo wäre aber auch nicht richtig)
+
+main.obj: main.cpp
+fange ich extra ab, da keine Header datei vorhanden ist und somit nicht von der Regel:
+%.obj: %.cpp %.h
+verarbeitet wird 
+
+nach jeder Abarbeitung macht die Eingabeaufforderung eine Leerzeile, 
+wirkt mir aber eher nach Funktion/Fehler der Eingabeaufforderung
